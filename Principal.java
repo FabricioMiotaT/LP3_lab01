@@ -14,7 +14,7 @@ public class Principal{
             }while(vida < 4 && !fl);
         }
         if (fl == true)
-            System.out.println("Bien, Adivinaste!");
+            System.out.println("FELICIDADES, te ganaste un yapeo de 10 SO");
             else
             System.out.println("QUE MALO, perdiste");
         }
