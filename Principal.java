@@ -6,7 +6,7 @@ public class Principal{
         vida = 0;
         try (Scanner sc = new Scanner (System.in)) {
             do{
-                vida ++;
+                vida = numeroVidas(vida);
                 System.out.println("Vida:"+ vida + "\tCual es el número secreto? ");
                 rp = sc.nextInt();
                 if (rp == 343)
@@ -18,8 +18,14 @@ public class Principal{
             else
             System.out.println("QUE MALO, perdiste");
         }
+
+public static int numeroVidas(int vida){
+            vida ++;
+            return vida;
+
     }
 
+}
 
 
 
